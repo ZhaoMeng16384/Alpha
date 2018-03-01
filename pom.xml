@@ -17,8 +17,9 @@
         <module>alpha-statistics</module>
         <module>alpha-user</module>
         <module>alpha-warehouse</module>
-        <module>alpha-worker</module>
+        <module>alpha-personnel</module>
         <module>alpha-comman</module>
+        <module>alpha-base-service</module>
     </modules>
 
     <parent>
@@ -127,7 +128,7 @@
                     <exclude>application.properties</exclude>
                     <exclude>application-dev.properties</exclude>
                     <exclude>application-test.properties</exclude>
-                    <exclude>application-prod.properties</exclude>
+                    <exclude>application-pro.properties</exclude>
                 </excludes>
             </resource>
             <resource>
