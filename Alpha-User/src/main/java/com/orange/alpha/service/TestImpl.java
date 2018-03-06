@@ -1,14 +1,16 @@
-package com.orange.alpha.Service;
+package com.orange.alpha.service;
 
-import com.alibaba.dubbo.config.annotation.Reference;
-import org.springframework.stereotype.Service;
+
+import com.alibaba.dubbo.config.annotation.Service;
+import com.orange.alpha.facade.user.TestService;
 
 /**
  * @Author:MengZhao
  * @Descirption:
  * @Date:Created in 14:48 2018/3/1
  */
-@Service
+@Service(version = "1.0.0")
+@org.springframework.stereotype.Service
 public class TestImpl implements TestService {
 
 

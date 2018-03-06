@@ -11,23 +11,25 @@
 	<name>alpha</name>
 	<description>Demo project for Spring Boot</description>
 
-    <modules>
-        <module>alpha-controller</module>
-        <module>alpha-finance</module>
-        <module>alpha-statistics</module>
-        <module>alpha-user</module>
-        <module>alpha-warehouse</module>
-        <module>alpha-personnel</module>
-        <module>alpha-common</module>
-        <module>alpha-base-service</module>
-    </modules>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <modules>
+        <module>alpha-base-service</module>
+        <module>alpha-finance</module>
+        <module>alpha-statistics</module>
+        <module>alpha-user</module>
+        <module>alpha-warehouse</module>
+        <module>alpha-personnel</module>
+        <module>alpha-controller</module>
+        <module>alpha-common</module>
+    </modules>
+
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -76,8 +78,8 @@
         <!-- aphla-common -->
         <dependency>
             <groupId>com.orange</groupId>
-            <artifactId>aphla-comman</artifactId>
-            <version>0.0.1</version>
+            <artifactId>alpha-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <!-- AOP -->
@@ -92,6 +94,15 @@
             <artifactId>guava</artifactId>
             <version>23.3-jre</version>
         </dependency>
+
+
+        <dependency>
+            <groupId>com.github.sgroschupf</groupId>
+            <artifactId>zkclient</artifactId>
+            <version>0.1</version>
+        </dependency>
+
+
     </dependencies>
 
 

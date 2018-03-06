@@ -1,4 +1,4 @@
-package com.orange.alpha;
+package com.orange.alpha.facade;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

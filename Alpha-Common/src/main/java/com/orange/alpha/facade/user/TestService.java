@@ -1,4 +1,4 @@
-package com.orange.alpha.Service;
+package com.orange.alpha.facade.user;
 
 /**
  * @Author:MengZhao
